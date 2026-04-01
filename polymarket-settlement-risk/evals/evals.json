@@ -1,0 +1,23 @@
+{
+  "skill_name": "polymarket-settlement-risk",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Which markets about to settle have dispute risk? Help me look at the next 7 days",
+      "expected_output": "List markets settling in the next 7 days, grouped by risk level (high/medium), showing for each market: settlement time, current YES probability, risk reason and suggestions. Include UMA history reference.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "What settlement risks are there in the next 3 days? Focus on geopolitics markets",
+      "expected_output": "Time window narrowed to 3 days, focusing on geopolitics (GEO) market settlement risks, marking dispute reasons.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What are the 5 markets with the highest settlement risk?",
+      "expected_output": "Output the 5 markets with the highest risk scores about to settle, including risk details and action suggestions.",
+      "files": []
+    }
+  ]
+}

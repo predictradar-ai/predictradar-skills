@@ -1,0 +1,9 @@
+_docs/
+_docs/**
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+README.md
+polymarket-copyhunter/
+polymarket-copyhunter-cards/
