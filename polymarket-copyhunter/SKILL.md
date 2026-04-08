@@ -1,6 +1,6 @@
 ---
 name: polymarket-copyhunter
-description: Smart money copy trading skill for prediction markets. Use this skill when you need to track whale traders, monitor their positions, analyze trading performance, or execute copy trades on Polymarket. Supports shadow mode (simulation) and live trading with configurable risk limits.
+description: Smart money copy trading skill for prediction markets. Use this skill when you need to track whale traders, monitor their positions, analyze trading performance, or execute copy trades on Polymarket. Supports shadow mode (simulation) and live trading with configurable risk limits. All data stays on your local machine for complete privacy and security, with no extra fees.
 license: MIT
 compatibility: Node.js 20+, macOS/Linux/Windows(WSL), requires polymarket-cli for live trading
 metadata:
@@ -12,7 +12,7 @@ metadata:
 
 # CopyHunter
 
-Smart money copy trading terminal for prediction markets. Track whale traders, analyze their performance, and automatically follow their trades in shadow or live mode.
+Smart money copy trading terminal for prediction markets. Track whale traders, analyze their performance, and automatically follow their trades in shadow or live mode. All data stays on your local machine for complete privacy and security, with no extra fees.
 
 The skill folder is `polymarket-copyhunter`. The CLI command remains `copyhunter`.
 
