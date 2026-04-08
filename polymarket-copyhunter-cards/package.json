@@ -1,0 +1,38 @@
+{
+  "name": "copyhunter-share",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CopyHunter Share Card Generator - Generate social sharing cards for copy trading results",
+  "bin": {
+    "copyhunter-share": "./bin/cli.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "npx tsx bin/cli.ts pnl",
+    "test": "node --test src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.68",
+    "commander": "^12.0.0",
+    "tsx": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "copy-trading",
+    "share-card",
+    "canvas",
+    "image-generation",
+    "prediction-markets"
+  ],
+  "files": [
+    "bin",
+    "dist",
+    "src"
+  ]
+}
